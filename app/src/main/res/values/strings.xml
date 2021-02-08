@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">My Helper</string>
+    <string name="app_name">Shayak Mitra</string>
     <string name="autostart_title">Turn on Autorestart option from setting and If you not turn on this then the service of this application wont work properly.</string>
-    <string name="title_activity_main">My Helper</string>
+    <string name="title_activity_main">Shayak Mitra</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>

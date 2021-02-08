@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.project.myhelper">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.Mitra">
 
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
@@ -19,35 +20,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".feedbackActivity"/>
-        <activity android:name=".MobileLockScreenInstructionActivity" />
-        <activity android:name=".AlarmInstructionActivity" />
-        <activity android:name=".SoundProfileInstructionActivity" />
-        <activity android:name=".LocationInstructionActivity" />
-        <activity android:name=".ContactInstructionActivity" />
-        <activity android:name=".InstructionActivity" />
-        <activity android:name=".forgotPin" />
+        <activity android:name="com.project.Mitra.feedbackActivity"/>
+        <activity android:name="com.project.Mitra.MobileLockScreenInstructionActivity" />
+        <activity android:name="com.project.Mitra.AlarmInstructionActivity" />
+        <activity android:name="com.project.Mitra.SoundProfileInstructionActivity" />
+        <activity android:name="com.project.Mitra.LocationInstructionActivity" />
+        <activity android:name="com.project.Mitra.ContactInstructionActivity" />
+        <activity android:name="com.project.Mitra.InstructionActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.project.Mitra.forgotPin" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.project.Mitra.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".screenPinActivity"
+            android:name="com.project.Mitra.screenPinActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".registrationActivity"
+            android:name="com.project.Mitra.registrationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".forgotPasswordActivity"
+            android:name="com.project.Mitra.forgotPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".setupActivity"
+            android:name="com.project.Mitra.setupActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.project.Mitra.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".splash_screen"
+            android:name="com.project.Mitra.splash_screen"
             android:noHistory="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -59,7 +61,7 @@
         </activity>
 
         <receiver
-            android:name=".SmsReceiver"
+            android:name="com.project.Mitra.SmsReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter android:priority="2147483647">
@@ -67,10 +69,11 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".GPSTracker" />
+        <service android:name="com.project.Mitra.GPSTracker"
+            tools:ignore="Instantiatable" />
 
         <receiver
-            android:name=".MyAdmin"
+            android:name="com.project.Mitra.MyAdmin"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <meta-data
                 android:name="android.app.device_admin"
@@ -82,7 +85,7 @@
         </receiver>
 
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.project.Mitra.SettingsActivity"
             android:screenOrientation="portrait" />
     </application>
 
