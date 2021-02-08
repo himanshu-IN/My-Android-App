@@ -27,7 +27,7 @@
         android:inputType="text"
         android:layout_below="@+id/title"/>
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonChange"
         android:layout_width="80dp"
         android:layout_height="45dp"
@@ -39,7 +39,7 @@
         android:layout_below="@+id/edit_name"
         android:layout_alignParentEnd="true" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonCancel"
         android:layout_width="80dp"
         android:layout_height="45dp"

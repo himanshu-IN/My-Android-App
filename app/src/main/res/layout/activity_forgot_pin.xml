@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".forgotPin">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         android:layout_below="@id/textview_to_forgot_login_password"
         android:orientation="vertical">
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_login_password__layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,9 +53,9 @@
                 android:hint="Enter Login Password"
                 android:textColorHint="#4169E1"/>
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/input_new_pin_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -72,11 +72,11 @@
                 android:visibility="gone"
                 android:textColorHint="#4169E1"/>
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/sumbit_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

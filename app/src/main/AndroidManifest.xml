@@ -25,6 +25,7 @@
         <activity android:name="com.project.Mitra.AlarmInstructionActivity" />
         <activity android:name="com.project.Mitra.SoundProfileInstructionActivity" />
         <activity android:name="com.project.Mitra.LocationInstructionActivity" />
+        <activity android:name="com.project.Mitra.AdditionalHelpInstructionActivity" />
         <activity android:name="com.project.Mitra.ContactInstructionActivity" />
         <activity android:name="com.project.Mitra.InstructionActivity"
             tools:ignore="Instantiatable" />
